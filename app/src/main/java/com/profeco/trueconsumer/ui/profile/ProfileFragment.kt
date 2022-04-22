@@ -5,12 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
-import androidx.lifecycle.ViewModelProvider
-import com.profeco.trueconsumer.R
-import com.profeco.trueconsumer.databinding.FragmentProductsBinding
 import com.profeco.trueconsumer.databinding.FragmentProfileBinding
-import com.profeco.trueconsumer.ui.products.ProductsViewModel
 
 
 class ProfileFragment : Fragment() {

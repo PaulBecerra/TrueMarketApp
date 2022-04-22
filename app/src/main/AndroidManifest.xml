@@ -10,7 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProFeCoConsumer">
         <activity
-            android:name=".DetailMarketActivity"
+            android:name=".DetailWishlistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InconsistencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.market.DetailMarketReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.market.DetailMarketActivity"
             android:exported="false"
             android:label="@string/title_activity_detail_market"
             android:theme="@style/Theme.ProFeCoConsumer.NoActionBar" />

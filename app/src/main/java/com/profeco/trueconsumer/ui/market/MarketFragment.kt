@@ -4,15 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
-import android.widget.TextView
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.profeco.trueconsumer.MarketAdapter
 import com.profeco.trueconsumer.R
+import com.profeco.trueconsumer.adapter.MarketAdapter
 import com.profeco.trueconsumer.databinding.FragmentMarketBinding
 import com.profeco.trueconsumer.model.Market
 
@@ -63,12 +60,12 @@ class MarketFragment : Fragment() {
     }
 
     private fun getMarkets(){
-        val market1 = Market(1, "Walmart", R.drawable.walmart)
-        val market2 = Market(2, "Soriana", R.drawable.walmart)
-        val market3 = Market(3, "Costco", R.drawable.walmart)
-        val market4 = Market(4, "Bodega Aurrera", R.drawable.walmart)
-        val market5 = Market(5, "Sam's Club", R.drawable.walmart)
-        val market6 = Market(6, "Ley", R.drawable.walmart)
+        val market1 = Market(1, "Walmart", R.drawable.walmart, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
+        val market2 = Market(2, "Soriana", R.drawable.walmart, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
+        val market3 = Market(3, "Costco", R.drawable.walmart, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
+        val market4 = Market(4, "Bodega Aurrera", R.drawable.walmart, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
+        val market5 = Market(5, "Sam's Club", R.drawable.walmart, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
+        val market6 = Market(6, "Ley", R.drawable.walmart, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
         marketList.addAll(listOf(market1, market2, market3, market4, market5, market6))
     }
 

@@ -4,20 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".ui.products.ProductsFragment">
+    tools:context=".DetailWishlistActivity"
+    android:orientation="vertical">
 
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/searchViewProduct"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:defaultQueryHint="Search product..."
-        app:iconifiedByDefault="false" />
+        android:text="Wishlist details"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:layout_margin="12dp" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete wishlist"
+        android:layout_marginHorizontal="32dp"
+        android:backgroundTint="@color/design_default_color_error"
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewProduct"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 </LinearLayout>

@@ -1,8 +1,8 @@
-package com.profeco.trueconsumer
+package com.profeco.trueconsumer.ui.market
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.core.os.bundleOf
 import com.profeco.trueconsumer.databinding.ActivityDetailMarketBinding
 import com.profeco.trueconsumer.model.Market
 
@@ -23,6 +23,14 @@ class DetailMarketActivity : AppCompatActivity() {
 
         imageViewMarket.setImageResource(market.image)
         textViewMarket.text = market.name
+
+        val btnShowReviews = binding.btnShowReviews
+
+        btnShowReviews.setOnClickListener{
+            val intent = Intent(this, DetailMarketReviewActivity::class.java)
+            intent.putExtra("market", market)
+            startActivity(intent)
+        }
 
     }
 }

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+            <ImageView
+                android:id="@+id/imageViewProduct"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:src="@drawable/cocacola"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textViewProductName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Coca cola"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                android:gravity="left|center"
+                android:layout_margin="16dp"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remove item"
+            android:layout_marginHorizontal="32dp"
+            android:backgroundTint="@color/design_default_color_error"
+            android:layout_marginVertical="8dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,4 +1,4 @@
-package com.profeco.trueconsumer
+package com.profeco.trueconsumer.adapter
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -8,9 +8,10 @@ import android.widget.Filter
 import android.widget.Filterable
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
+import com.profeco.trueconsumer.R
 import com.profeco.trueconsumer.model.Market
+import com.profeco.trueconsumer.ui.market.DetailMarketActivity
 import java.util.*
 import kotlin.collections.ArrayList
 
