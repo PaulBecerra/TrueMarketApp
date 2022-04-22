@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1019136407601",
+    "project_id": "profeco-consumer",
+    "storage_bucket": "profeco-consumer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019136407601:android:caa48ac2f0862311c4fd10",
+        "android_client_info": {
+          "package_name": "com.profeco.consumer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019136407601-m9p2qunjt5fcv0uvoglihifujtpug246.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv9GYcYJiQiajeiAx4XBmOd0rXJSZio04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019136407601-m9p2qunjt5fcv0uvoglihifujtpug246.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

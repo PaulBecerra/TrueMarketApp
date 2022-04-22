@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.profeco.consumer">
+    package="com.profeco.trueconsumer">
 
     <application
         android:allowBackup="true"
@@ -10,16 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProFeCoConsumer">
         <activity
-            android:name=".SignUpActivity"
+            android:name="com.profeco.trueconsumer.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main" />
+        <activity
+            android:name="com.profeco.trueconsumer.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.ProFeCoConsumer.NoActionBar">
+            android:name="com.profeco.trueconsumer.LoginActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

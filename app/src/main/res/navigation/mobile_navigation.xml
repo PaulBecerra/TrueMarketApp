@@ -3,23 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/navigation_home">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.profeco.consumer.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:id="@+id/navigation_home"
+        android:name="com.profeco.trueconsumer.ui.home.HomeFragment"
+        android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.profeco.consumer.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/navigation_markets"
+        android:name="com.profeco.trueconsumer.ui.market.MarketFragment"
+        android:label="Markets"
+        tools:layout="@layout/fragment_market" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.profeco.consumer.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/navigation_products"
+        android:name="com.profeco.trueconsumer.ui.products.ProductsFragment"
+        android:label="Products"
+        tools:layout="@layout/fragment_products" />
+
+    <fragment
+        android:id="@+id/navigation_wishlists"
+        android:name="com.profeco.trueconsumer.ui.wishlists.WishlistFragment"
+        android:label="Products"
+        tools:layout="@layout/fragment_wishlist" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.profeco.trueconsumer.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

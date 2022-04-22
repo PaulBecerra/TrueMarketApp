@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="@color/purple_500">
+    android:background="@color/purple_500"
+    android:id="@+id/layoutLogin">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -39,7 +40,7 @@
                 android:layout_weight="6"/>
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/editTextEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -49,7 +50,7 @@
                 android:layout_weight="1"/>
 
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/editTextLoginPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -59,7 +60,7 @@
                 android:layout_weight="1"/>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btn_email_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
@@ -68,7 +69,7 @@
                 android:layout_weight="1"/>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btn_google_login"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -113,7 +114,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/textViewCreateAccount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Create Account"
