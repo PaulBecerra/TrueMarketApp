@@ -10,14 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProFeCoConsumer">
         <activity
-            android:name="com.profeco.trueconsumer.MainActivity"
+            android:name=".DetailMarketActivity"
+            android:exported="false"
+            android:label="@string/title_activity_detail_market"
+            android:theme="@style/Theme.ProFeCoConsumer.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
             android:exported="false"
             android:label="@string/title_activity_main" />
         <activity
-            android:name="com.profeco.trueconsumer.SignUpActivity"
+            android:name=".SignUpActivity"
             android:exported="false" />
         <activity
-            android:name="com.profeco.trueconsumer.LoginActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

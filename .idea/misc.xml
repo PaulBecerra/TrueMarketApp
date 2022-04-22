@@ -10,11 +10,13 @@
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.169" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.169" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/drawable/side_nav_bar.xml" value="0.169" />
+        <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/activity_detail_market.xml" value="0.4" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/content_detail_market.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/content_main.xml" value="0.2" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/fragment_gallery.xml" value="0.25416666666666665" />
@@ -23,8 +25,10 @@
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/fragment_notifications.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/fragment_products.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/fragment_profile.xml" value="0.11197916666666667" />
+        <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/fragment_wishlist.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/layout_market.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/menu/activity_main_drawer.xml" value="0.4" />
         <entry key="..\:/Users/paulb/AndroidStudioProjects/ProFeCoConsumer/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
