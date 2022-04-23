@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailWishlistActivity"
+    tools:context=".ui.wishlists.DetailWishlistActivity"
     android:orientation="vertical">
 
     <TextView
@@ -12,6 +12,15 @@
         android:layout_height="wrap_content"
         android:text="Wishlist details"
         android:textSize="24dp"
+        android:textColor="@color/black"
+        android:layout_margin="12dp" />
+
+    <TextView
+        android:id="@+id/textViewSeller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seller: "
+        android:textSize="18dp"
         android:textColor="@color/black"
         android:layout_margin="12dp" />
 

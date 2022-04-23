@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProFeCoConsumer">
         <activity
-            android:name=".DetailWishlistActivity"
+            android:name=".ui.wishlists.DetailWishlistActivity"
             android:exported="false" />
         <activity
             android:name=".InconsistencyActivity"

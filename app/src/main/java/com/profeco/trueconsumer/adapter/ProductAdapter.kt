@@ -15,10 +15,10 @@ import com.profeco.trueconsumer.model.Product
 import java.util.*
 import kotlin.collections.ArrayList
 
-class ProductAdapter(private var productList: ArrayList<Product>):
+class ProductAdapter(private var productList: List<Product>):
     RecyclerView.Adapter<ProductAdapter.ViewHolder>(), Filterable {
 
-    var productFilterList = ArrayList<Product>()
+    var productFilterList: List<Product>
 
     init {
         productFilterList = productList
