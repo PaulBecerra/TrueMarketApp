@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textViewMarketProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seller: Costco"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: 15"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/btnAddToWishlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to wishlist"
+            />
+
+        <Button
+            android:id="@+id/btnReportProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Report product"
+            android:backgroundTint="@color/design_default_color_error"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

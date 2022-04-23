@@ -19,7 +19,7 @@
             android:name=".ui.market.DetailMarketReviewActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailProductActivity"
+            android:name=".ui.products.DetailProductActivity"
             android:exported="false" />
         <activity
             android:name=".ui.market.DetailMarketActivity"
